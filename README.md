@@ -81,6 +81,10 @@ git add . && git commit -m "init" && git push
 
 > 环境变量优先级高于 `config.json`，所以仓库里不用放任何密钥。
 
+**没配 token 也不会跑挂**：工作流在检测不到 `PUSHPLUS_TOKEN`、也没设 `NOTIFY_CHANNEL` 时，
+会把通道自动降级成 `none`（只写日志不发送）。这样状态照常记录、不会因为推送失败而
+每轮都重试却永远记不下来 —— 你可以先让它在云端裸跑，确认抓取正常了再补 token。
+
 还有两个**可选**的 Secret，不配也完全能用：
 
 | Secret 名 | 用途 | 代价 |
