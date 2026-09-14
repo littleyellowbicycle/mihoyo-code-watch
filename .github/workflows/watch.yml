@@ -1,0 +1,65 @@
+name: 兑换码哨兵
+
+on:
+  schedule:
+    # GitHub Actions 的 cron 用 UTC，且有 5-15 分钟排队延迟
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "只抓取不推送（排查用）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: codewatch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 跑一轮监控
+        env:
+          # 推送通道：优先读仓库变量 NOTIFY_CHANNEL（Settings → Variables）。
+          # 都没配、且没有 PUSHPLUS_TOKEN 时退化为 none（只写日志），
+          # 否则每轮都会因推送失败而重试、状态永远记不下来。
+          NOTIFY_CHANNEL: ${{ vars.NOTIFY_CHANNEL || (secrets.PUSHPLUS_TOKEN != '' && 'pushplus' || 'none') }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+          WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+          BARK_URL: ${{ secrets.BARK_URL }}
+          # 可选：填了才能读到「今天签没签、累计几天」
+          TAPTAP_COOKIE: ${{ secrets.TAPTAP_COOKIE }}
+          # 可选：微博源默认关闭，填了 Cookie 才会启用
+          WEIBO_COOKIE: ${{ secrets.WEIBO_COOKIE }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python run.py --dry-run --verbose
+          else
+            python run.py
+          fi
+
+      - name: 提交去重状态
+        if: always()
+        run: |
+          git config user.name  "codewatch-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/seen.json
+          if git diff --staged --quiet; then
+            echo "状态无变化，跳过提交"
+          else
+            git commit -m "chore: 更新已推送记录 [skip ci]"
+            git push
+          fi

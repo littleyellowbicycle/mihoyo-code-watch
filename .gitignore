@@ -1,0 +1,14 @@
+# 本地配置：可能含推送 token / 微博 cookie，绝不入库
+config.json
+
+# 运行产物
+state/seen.json.tmp
+__pycache__/
+*.pyc
+
+# 排查用的临时文件
+# 注意：这里绝不能写 `_*.py` —— 它会把 `__init__.py` 一并忽略掉，
+# 结果就是包入口文件根本没进仓库，Actions 上一跑就 import 失败。
+_*.txt
+/_probe_*.py
+/_cleanup*.py
