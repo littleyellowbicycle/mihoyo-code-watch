@@ -1,6 +1,202 @@
 {
-  "announced": {},
-  "codes": {},
-  "last_heartbeat": 0,
-  "sign_reminders": {}
+  "announced": {
+    "taptap-2748": 1789367651,
+    "taptap-2752": 1789367651,
+    "taptap-3857": 1789367651,
+    "taptap-3884": 1789367651,
+    "taptap-4109": 1789367651,
+    "taptap-4175": 1789367651,
+    "taptap-4206": 1789367651,
+    "taptap-app-a46e935aefbb1429": 1789367651
+  },
+  "codes": {
+    "2BJ64QRZ7RT8": {
+      "first_seen": 1789367651,
+      "game": "原神",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "4TKSX77Y58QK": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "5S6ZHRWTDNJB": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "BALLETCOLLAB": {
+      "first_seen": 1789367651,
+      "game": "原神",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "CREATIONNYMPH": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "CTK5DRQVT48F": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "FAREWELL": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "IFYOUAREREADINGTHIS": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "OMEGA": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "PRIMADONNA": {
+      "first_seen": 1789367651,
+      "game": "原神",
+      "region": "国际服",
+      "score": 4,
+      "source": "米游社搜索(兑换码)",
+      "url": "https://www.miyoushe.com/ys/article/78129548"
+    },
+    "REKVIEM": {
+      "first_seen": 1789367651,
+      "game": "原神",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "STARRAILGIFT": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "SUNSWEPTROBIN": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "VESNA0923": {
+      "first_seen": 1789367651,
+      "game": "原神",
+      "region": "国际服",
+      "score": 4,
+      "source": "米游社搜索(兑换码)",
+      "url": "https://www.miyoushe.com/ys/article/78129548"
+    },
+    "WA4AV2F24PYX": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "WAVEFLAIRSTYLE": {
+      "first_seen": 1789367651,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "Y1INABQB6DEX": {
+      "first_seen": 1789367651,
+      "game": "原神",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "Y6JYMKV6JKSL": {
+      "first_seen": 1789367651,
+      "game": "原神",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "YOAL3V36XHS7": {
+      "first_seen": 1789367651,
+      "game": "原神",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "ZENLESSGIFT": {
+      "first_seen": 1789367651,
+      "game": "绝区零",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "ZZZGRIND32": {
+      "first_seen": 1789367651,
+      "game": "绝区零",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "ZZZINK32": {
+      "first_seen": 1789367651,
+      "game": "绝区零",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "ZZZVOID32": {
+      "first_seen": 1789367651,
+      "game": "绝区零",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    }
+  },
+  "last_heartbeat": 1789367620,
+  "sign_reminders": {
+    "riuf6rc3": "2026-09-14"
+  }
 }
