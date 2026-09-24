@@ -68,6 +68,14 @@
       "source": "hoyo-codes(国际服)",
       "url": "https://hoyo-codes.seria.moe"
     },
+    "DATG5HG1PL89": {
+      "first_seen": 1790259715,
+      "game": "原神",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
     "EPIC2026": {
       "first_seen": 1790186205,
       "game": "原神",
@@ -285,7 +293,7 @@
       "url": "https://hoyo-codes.seria.moe"
     }
   },
-  "last_heartbeat": 1790186172,
+  "last_heartbeat": 1790259685,
   "sign_reminders": {
     "riuf6rc3": "2026-09-18",
     "rk0lavd9": "2026-09-24",
