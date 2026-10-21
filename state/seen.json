@@ -97,6 +97,14 @@
       "source": "hoyo-codes(国际服)",
       "url": "https://hoyo-codes.seria.moe"
     },
+    "DSLSPNBREASP": {
+      "first_seen": 1792564163,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
     "EPIC2026": {
       "first_seen": 1790186205,
       "game": "原神",
@@ -436,6 +444,7 @@
   },
   "last_heartbeat": 1792495207,
   "sign_reminders": {
+    "3jbyw7p8": "2026-10-21",
     "riuf6rc3": "2026-09-18",
     "rk0lavd9": "2026-10-07",
     "tp2bliv3": "2026-10-14",
