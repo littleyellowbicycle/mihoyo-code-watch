@@ -57,6 +57,14 @@
       "source": "hoyo-codes(国际服)",
       "url": "https://hoyo-codes.seria.moe"
     },
+    "AHABLESSYOU": {
+      "first_seen": 1793375235,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
     "BALLETCOLLAB": {
       "first_seen": 1789367651,
       "game": "原神",
@@ -260,6 +268,22 @@
     "NEEIJB764CA3": {
       "first_seen": 1791150696,
       "game": "原神",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "NEVERGONNAGIVE": {
+      "first_seen": 1793375235,
+      "game": "崩坏：星穹铁道",
+      "region": "国际服",
+      "score": 10,
+      "source": "hoyo-codes(国际服)",
+      "url": "https://hoyo-codes.seria.moe"
+    },
+    "NEVERGONNAMAKE": {
+      "first_seen": 1793375235,
+      "game": "崩坏：星穹铁道",
       "region": "国际服",
       "score": 10,
       "source": "hoyo-codes(国际服)",
@@ -506,7 +530,7 @@
       "url": "https://hoyo-codes.seria.moe"
     }
   },
-  "last_heartbeat": 1793298107,
+  "last_heartbeat": 1793375180,
   "sign_reminders": {
     "3jbyw7p8": "2026-10-30",
     "riuf6rc3": "2026-09-18",
